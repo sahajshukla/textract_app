@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    console.log(env.process.REACT_APP_FIREBASE_API_KEY)
     <App/>
   </React.StrictMode>
 );
