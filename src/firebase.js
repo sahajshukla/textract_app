@@ -1,14 +1,13 @@
 import firebase from 'firebase/compat/app'
 import 'firebase/compat/auth'
-console.log(process.env.REACT_APP_FIREBASE_API_KEY);
 
 const app = firebase.initializeApp({
-    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-    storageBucket: process.env.REACT_APP_FIEBASE_STORAGE_BUCKET,
-    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-    appId: process.env.REACT_APP_FIREBASE_APP_ID
+    apiKey: "AlzaSyDNYlowcEpXtCE5HKQ1kK4hPmVSUcwTtS4",
+    authDomain: "ocr-textract-dev.firebaseapp.com",
+    projectId: "ocr-textract-dev",
+    storageBucket: "ocr-textract-dev.appspot.com",
+    messagingSenderId: "346774948760",
+    appId: "1:346774948760:web:c99a87bb4a323be1cff9ed"
 })
 
 export const auth = app.auth()
